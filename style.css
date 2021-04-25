@@ -1,0 +1,43 @@
+body{
+
+    background-image: url("background.jpg");
+    height: 800px;
+}
+
+.heading{
+
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+    width: 100%;
+}
+
+.heading_div, .object_div{
+    float: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.copy_right_footer{
+
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    line-height: 2;
+    z-index: 100;
+}
+
+canvas{
+
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: 5px 5px 9px black;
+
+}
